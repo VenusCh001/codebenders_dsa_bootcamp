@@ -11,7 +11,7 @@ Let's get started! 🎯
 
 Each day's progress, code, and explanations will be posted here.  
 - **Day 1:** intro to c++ and basics of writing program ✅ Completed 
-- **Day 2:** 🔄 In Progress
+- **Day 2:** loops and arrays and searching 🔄 In Progress
 
   Stay tuned for daily updates! 🚀
 
@@ -19,9 +19,9 @@ Each day's progress, code, and explanations will be posted here.
 ---
 
 ## 🛠️ Tools & Languages
-Programming Language: C++ 
-IDE: VS Code
-Version Control: Github
+- **Programming Language:** C++ 
+- **IDE:** VS Code
+- **Version Control:** Github
 
 
 
