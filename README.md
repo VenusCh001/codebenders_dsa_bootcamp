@@ -11,7 +11,11 @@ Let's get started! 🎯
 
 Each day's progress, code, and explanations will be posted here.  
 - **Day 1:** intro to c++ and basics of writing program ✅ Completed 
-- **Day 2:** loops and arrays and searching 🔄 In Progress
+- **Day 2:** loops and arrays  ✅ Completed 
+- **Day 3:** searching ✅ Completed 
+- **Day 4:** sorting & 2d arrays & two pointers ✅ Completed 
+- **Day 5:** char arrays & strings & recursion 🔄 In Progress
+
 
   Stay tuned for daily updates! 🚀
 
