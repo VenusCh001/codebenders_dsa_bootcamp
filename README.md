@@ -14,7 +14,8 @@ Each day's progress, code, and explanations will be posted here.
 - **Day 2:** loops and arrays  ✅ Completed 
 - **Day 3:** searching ✅ Completed 
 - **Day 4:** sorting & 2d arrays & two pointers ✅ Completed 
-- **Day 5:** char arrays & strings & recursion 🔄 In Progress
+- **Day 5:** char arrays & strings & recursion ✅ Completed
+- **Day 6:** recursion intermediate 🔄 In Progress
 
 
   Stay tuned for daily updates! 🚀
