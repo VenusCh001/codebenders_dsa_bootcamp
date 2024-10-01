@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 class node{
     public:
@@ -19,6 +19,35 @@ void preorderTraversal(node*root){
     preorderTraversal(root->left);
     preorderTraversal(root->right);
 }
+
+void levelorder(node*root){
+    //forming the queue
+    queue<node*>q;
+    q.push(root);//1
+
+    while(!q.empty()){
+        int nodesAtLevel=q.size();//4
+        while(nodesAtLevel--){
+            //get the front of the queue
+            node*currnode=q.front();
+
+            //remove from the queue
+            q.pop();
+
+            //print the data of the current node
+            cout<<currnode->data<<" ";
+
+            //insert left child if it exists
+            if(currnode->left!=NULL)q.push(currnode->left);
+
+            //insert right child if it exists
+            if(currnode->right!=NULL)q.push(currnode->right);
+        }
+        cout<<endl;
+        
+    }
+    cout<<endl;
+}
 int main(){
     node*root=new node(1);// level 1
 
@@ -30,7 +59,10 @@ int main(){
     root->right->left=new node(6);
     root->right->right=new node(7);
 
-    preorderTraversal(root);
+    //preorderTraversal(root);
+
+    cout<<endl;
+    levelorder(root);
 
     return 0;
 }
